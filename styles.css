@@ -26,16 +26,20 @@ nav {
     width: 100%;
     top: 0;
     z-index: 1000;
+    transition: all 0.3s ease-in-out;
 }
 
+/* Navbar Title */
 .logo {
     font-size: 1.8rem;
     font-weight: bold;
 }
 
+/* Nav Links */
 .nav-links {
     list-style: none;
     display: flex;
+    transition: opacity 0.3s ease-in-out;
 }
 
 .nav-links li {
@@ -51,6 +55,11 @@ nav {
 
 .nav-links a:hover {
     color: #77DD77;
+}
+
+/* Hide menu links when scrolling */
+nav.scrolled .nav-links {
+    display: none;
 }
 
 /* === HERO SECTION === */

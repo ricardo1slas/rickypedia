@@ -1,161 +1,54 @@
-/* Import fonts */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
-
-/* Reset styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-}
-
-/* Full viewport fix */
-html, body {
-    width: 100%;
-    height: 100%;
-    scroll-behavior: smooth;
-    background-color: black;
-}
-
-/* Navigation Bar */
-nav {
-    width: 100%;
-    height: 60px;
-    background: rgba(0, 0, 0, 0.8);
-    position: fixed;
-    top: 0;
-    left: 0;
-    display: flex;
-    align-items: center;
-    padding: 0 20px;
-    z-index: 1000;
-}
-
-.nav-container {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logo {
-    color: white;
-    font-size: 1.8rem;
-    font-weight: bold;
-}
-
-.logo span {
-    color: #077b32;
-}
-
-.links a {
-    color: white;
-    text-decoration: none;
-    margin: 0 15px;
-    font-size: 1rem;
-    transition: 0.3s;
-}
-
-.links a:hover {
-    color: #077b32;
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    background: #f5f5f5;
 }
 
 /* Hero Section */
-.hero {
-    width: 100%;
+#lead {
+    background: url("../images/lead-bg.jpg") no-repeat center center/cover;
     height: 100vh;
-    background: url('assets/77C2062D-21FF-4341-B7F6-95B4A5E624CD_1_105_c.jpeg') no-repeat center center/cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: relative;
     text-align: center;
     color: white;
-    position: relative;
 }
 
-/* Dark overlay for better contrast */
-.hero::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
+/* Navigation */
+header {
+    background: rgba(0, 0, 0, 0.8);
+    position: fixed;
     width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.4);
+    z-index: 1000;
 }
 
-.hero-content {
-    position: relative;
-    z-index: 2;
+/* Section Styling */
+#courses, #projects {
+    padding: 50px 15px;
+    text-align: center;
 }
 
-.hero-content h1 {
-    font-size: 4rem;
-    text-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+.heading {
+    font-size: 2rem;
+    font-weight: 600;
 }
 
-.hero-content p {
-    font-size: 1.5rem;
-    margin: 20px 0;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
-}
-
-.hero-content .button {
-    padding: 12px 25px;
-    background-color: #077b32;
-    color: white;
+.project {
+    background: white;
+    padding: 20px;
     border-radius: 5px;
-    text-decoration: none;
-    font-size: 1.2rem;
-    transition: 0.3s;
+    margin-bottom: 20px;
 }
 
-.hero-content .button:hover {
-    background-color: #005f25;
-    box-shadow: 0 0 10px #005f25;
-}
-
-/* Full-Page Image Sections */
-.full-page {
-    width: 100%;
-    min-height: 100vh;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    position: relative;
-}
-
-/* Overlay for contrast */
-.full-page::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.4);
-}
-
-/* Section Text */
-.section-content {
-    position: relative;
-    z-index: 2;
+/* Contact Form */
+#contact {
+    background: #3498db;
     color: white;
-    font-size: 3rem;
-    font-weight: bold;
-    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+    padding: 50px 15px;
 }
 
-/* Footer */
-footer {
-    width: 100%;
-    text-align: center;
-    padding: 20px 0;
-    background: rgba(0, 0, 0, 0.9);
-    color: white;
-    font-size: 1rem;
+button {
+    background: white;
+    color: #3498db;
+    padding: 10px;
+    border-radius: 5px;
 }

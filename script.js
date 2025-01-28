@@ -1,8 +1,5 @@
 const images = [
     "assets/77C2062D-21FF-4341-B7F6-95B4A5E624CD_1_105_c.jpeg",
-    "assets/A8305F9A-92D1-41D4-83B7-34D9CAF5B818_1_105_c.jpeg",
-    "assets/B439B10E-455A-4286-AA02-C75BF49BA819_1_105_c.jpeg",
-    "assets/2C5E9928-876B-4669-BC2E-904694E89F52_1_105_c.jpeg"
 ];
 
 let index = 0;

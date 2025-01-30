@@ -74,6 +74,19 @@ nav.scrolled .nav-links {
     background: url('assets/77C2062D-21FF-4341-B7F6-95B4A5E624CD_1_105_c.jpeg') no-repeat center center/cover;
 }
 
+/* Certificate Image Styling */
+.certificate-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.certificate-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1);
+}
+
 /* Remove Unwanted Illustration */
 .hero-img {
     display: none;
@@ -252,4 +265,80 @@ footer {
     .course, .project-card {
         width: 80%;
     }
+}
+
+/* === PROFESSIONAL FORMATION SECTION === */
+#formation {
+    background: #1E1E1E;
+    padding: 80px 50px;
+    text-align: center;
+}
+
+#formation h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+/* Formation Cards */
+.formation-card {
+    background: #222;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px auto;
+    width: 60%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+.formation-card h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #77DD77;
+    margin-bottom: 10px;
+}
+
+.formation-card p {
+    font-size: 1rem;
+    color: #ccc;
+    line-height: 1.5;
+}
+
+/* Bullet Points */
+.formation-card ul {
+    margin: 15px 0;
+    padding-left: 20px;
+}
+
+.formation-card ul li {
+    font-size: 1rem;
+    color: #ccc;
+    margin-bottom: 5px;
+}
+
+/* Images */
+.certificate-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.certificate-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1);
+}
+
+/* Stylish hyperlink for education link */
+.custom-link {
+    color: #3498db;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.custom-link:hover {
+    text-decoration: underline;
+    color: #77DD77;
 }
